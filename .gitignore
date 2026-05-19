@@ -1,0 +1,9 @@
+# 默认忽略一切，仅放行 docs/、README.md、LICENSE 与 .gitignore 自身
+/*
+!/docs/
+!/README.md
+!/LICENSE
+!/.gitignore
+
+# macOS 系统文件
+.DS_Store
